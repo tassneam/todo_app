@@ -18,7 +18,6 @@ import com.example.todolist.databinding.FragmentTaskBinding
 import com.example.todolist.viewmodel.TaskViewModel
 import com.google.android.material.snackbar.Snackbar
 
-
 class TaskFragment : Fragment() {
     private val viewModel: TaskViewModel by viewModels()
     private lateinit var adapter: TaskAdapter
